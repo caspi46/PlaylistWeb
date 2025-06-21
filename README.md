@@ -29,3 +29,6 @@ For Owner side:
 For other side: 
 - need to think how to identify if the user is user or owner 
 - DB
+
+# Brain Storming..!
+https://www.figma.com/board/eoKUjXK5bU95xv9huYZmkL/Untitled?node-id=0-1&p=f&t=DegAtIGuXYSNJovm-0
