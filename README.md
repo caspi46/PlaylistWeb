@@ -32,3 +32,10 @@ For other side:
 
 # Brain Storming..!
 https://www.figma.com/board/eoKUjXK5bU95xv9huYZmkL/Untitled?node-id=0-1&p=f&t=DegAtIGuXYSNJovm-0
+
+# To-Do List:
+- 6/22 - 6/28 : 
+    - log In and Sign Up system
+    - front-end design for web pages
+    - find the proper API
+    - build index.js with CRUD
