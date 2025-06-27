@@ -6,20 +6,20 @@ function Login(){
     const [password, setPassword] = useState(''); 
     const [error, setError] = useState(''); 
 
-    if (!email || !password) {
-        setError('Fill in Email and Password');
-        return;
-    }
+    const handleLogin = (e) => {
+        e.preventDefault(); 
+        if (!email || !password) {
+            setError('Fill in Email and Password');
+            return;
+        }
 
-    if (!email.include('@')){
-        setError('Fill in Email correctly');
-        return; 
-    }
+        if (!email.include('@')){
+            setError('Fill in Email correctly');
+            return; 
+        }
+        alert('Logging in as ${email}'); 
+    };
 
-    setError('');
-    alert('Logging in as ${email}'); 
-
-    
 
 
     return (
@@ -45,7 +45,7 @@ function Login(){
                         onChange={(p) => setPassword(p.target.value)}
                     />
 
-                    <button type="Submit">Login</button>
+                    <button type="submit">Login</button>
                 </form>
             </div>
         </div>
